@@ -1,9 +1,14 @@
-# api documentation for  [grunt-jscs (v3.0.1)](https://github.com/jscs-dev/grunt-jscs)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-jscs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-jscs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-jscs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-jscs)
+# npmdoc-grunt-jscs
+
+#### api documentation for  [grunt-jscs (v3.0.1)](https://github.com/jscs-dev/grunt-jscs)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-jscs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-jscs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-jscs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-jscs)
+
 #### Grunt task for checking JavaScript Code Style with jscs.
 
-[![NPM](https://nodei.co/npm/grunt-jscs.png?downloads=true)](https://www.npmjs.com/package/grunt-jscs)
+[![NPM](https://nodei.co/npm/grunt-jscs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-jscs)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-jscs/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-jscs_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-jscs/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-jscs/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-jscs/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-jscs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-jscs/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-jscs/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Gustavo Henke",
-        "email": "gustavo@injoin.com.br"
+        "name": "Gustavo Henke"
     },
     "bugs": {
         "url": "https://github.com/jscs-dev/grunt-jscs/issues"
@@ -60,17 +64,14 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "gustavohenke",
-            "email": "gustavo@injoin.io"
+            "name": "gustavohenke"
         },
         {
-            "name": "markelog",
-            "email": "markelog@gmail.com"
+            "name": "markelog"
         }
     ],
     "name": "grunt-jscs",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jscs-dev/grunt-jscs.git"
@@ -84,16 +85,6 @@
     "version": "3.0.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-jscs](#apidoc.module.grunt-jscs)
-
-
-
-# <a name="apidoc.module.grunt-jscs"></a>[module grunt-jscs](#apidoc.module.grunt-jscs)
 
 
 
