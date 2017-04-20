@@ -21,8 +21,15 @@
 ```json
 
 {
-    "author": {
-        "name": "Gustavo Henke"
+    "name": "grunt-jscs",
+    "description": "Grunt task for checking JavaScript Code Style with jscs.",
+    "version": "3.0.1",
+    "author": "Gustavo Henke <gustavo@injoin.com.br>",
+    "license": "MIT",
+    "homepage": "https://github.com/jscs-dev/grunt-jscs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jscs-dev/grunt-jscs.git"
     },
     "bugs": {
         "url": "https://github.com/jscs-dev/grunt-jscs/issues"
@@ -33,7 +40,6 @@
         "lodash": "~4.6.1",
         "vow": "~0.4.1"
     },
-    "description": "Grunt task for checking JavaScript Code Style with jscs.",
     "devDependencies": {
         "grunt": "1.0.1",
         "grunt-contrib-jshint": "~1.0.0",
@@ -41,48 +47,25 @@
         "load-grunt-tasks": "^3.4.0",
         "time-grunt": "~1.3.0"
     },
-    "directories": {},
-    "dist": {
-        "shasum": "1fae50e3e955df9e3a9d9425aec22accae008092",
-        "tarball": "https://registry.npmjs.org/grunt-jscs/-/grunt-jscs-3.0.1.tgz"
-    },
-    "engines": {
-        "node": ">= 0.10.0"
-    },
-    "files": [
-        "tasks",
-        "LICENSE-MIT"
-    ],
-    "gitHead": "efff3087a86296b4a6e8810a0f5e4c215be6210d",
-    "homepage": "https://github.com/jscs-dev/grunt-jscs",
     "keywords": [
         "gruntplugin",
         "jscs",
         "code style",
         "checker"
     ],
-    "license": "MIT",
-    "maintainers": [
-        {
-            "name": "gustavohenke"
-        },
-        {
-            "name": "markelog"
-        }
-    ],
-    "name": "grunt-jscs",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/jscs-dev/grunt-jscs.git"
+    "engines": {
+        "node": ">= 0.10.0"
     },
     "scripts": {
+        "test": "grunt test",
         "bump": "npm version patch -m \"Release v%s\"",
-        "bump-major": "npm version major -m \"Release v%s\"",
         "bump-minor": "npm version minor -m \"Release v%s\"",
-        "test": "grunt test"
+        "bump-major": "npm version major -m \"Release v%s\""
     },
-    "version": "3.0.1"
+    "files": [
+        "tasks",
+        "LICENSE-MIT"
+    ]
 }
 ```
 
